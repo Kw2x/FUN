@@ -1,0 +1,1 @@
+This is a repo that I started to pratice creating HTML elements and then styling those elements with JS. In this repo I will also pratice DOM manipulation and event listeners and more. 
