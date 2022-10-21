@@ -44,6 +44,9 @@ function bx2() {
     alert("box2 has been clicked");
 }
 
+const bx2 = document.get
+
+
 //creates the the box3 div element
 const box3 = document.createElement("box3");
 box3.textContent = "i am box 3";
