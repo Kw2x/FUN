@@ -37,6 +37,7 @@ function bx2() {
 
 //creates the the box3 div element
 const box3 = document.createElement("box3");
+box3.className = "box3";
 box3.textContent = "i am box 3";
 box3.style = "color: yellow; font-size: 35px; font-weight: bold; border: thick outset yellow; border-radius:5px;"
 box3.style.backgroundColor = "teal"
