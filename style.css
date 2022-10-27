@@ -23,6 +23,7 @@ body{
 
 #container:hover{
     transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgb(49, 175, 248);
 }
 
 .wrapper{
@@ -33,10 +34,16 @@ body{
 .box1{
    display: flex;
    background: yellow;
-   transition: transform 250ms;
+   text-shadow: #f30e0e;
+  border-radius: 4px;
+  font-weight: normal;
+  transition: transform 250ms;
+ transition: all 0.2s ease-in-out;
 }
+
 .box1:hover{
     transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgb(239, 10, 10);
 }
 
 .box2{
@@ -50,6 +57,7 @@ body{
 
 .box3:hover{
     transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgb(247, 227, 6);
 }
 
 .wrapper:hover{
