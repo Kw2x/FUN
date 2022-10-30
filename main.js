@@ -2,7 +2,6 @@
 const body = document.querySelector("body");
 body.style.textAlign = "center";
 
-
 //creates the the box1 element
 const box1 = document.createElement("box1");
 // creates a class for the box1 element
@@ -34,7 +33,6 @@ function bx2() {
     alert("box2 has been clicked");
 }
 
-
 //creates the the box3 div element
 const box3 = document.createElement("box3");
 box3.className = "box3";
@@ -47,4 +45,9 @@ function b3() {
 }
 document.body.append(box3);
 
-
+document.body.className = 'fade';
+document.addEventListener("DOMContentLoaded", () => {
+    window.setTimeout(function() {
+      document.body.className = '';
+    }, 230);
+  });
